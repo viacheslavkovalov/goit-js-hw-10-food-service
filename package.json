@@ -1,0 +1,29 @@
+{
+  "name": "goit-js-hw-10-food-service",
+  "version": "1.0.0",
+  "description": "JS Homework 10",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-10-food-service/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viacheslavkovalov/goit-js-hw-10-food-service.git"
+  },
+  "author": "Viacheslav Kovalov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viacheslavkovalov/goit-js-hw-10-food-service/issues"
+  },
+  "homepage": "https://viacheslavkovalov.github.io/goit-js-hw-10-food-service",
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  }
+}
